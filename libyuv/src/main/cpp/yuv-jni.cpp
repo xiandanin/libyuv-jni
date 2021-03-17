@@ -69,7 +69,7 @@ Java_in_xiandan_libyuv_YuvJNI_nativeRGBAToI420(JNIEnv *env, jobject thiz, jbyteA
     //I420_TO_RGB24=0x02001034;
     //I420_TO_RGB565=0x02001025;
 
-    // 最终会使用 libyuv::BGRAToI420
+    // 最终会使用 libyuv::ABGRToI420
     const int type_rgba_i420 = 0x01001040;
     rgbaToI420(type_rgba_i420, env, thiz, src, dst, width, height);
 }
