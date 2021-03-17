@@ -6,16 +6,6 @@ apply from: "bintray.gradle"
 
 android {
 
-    defaultConfig {
-
-        externalNativeBuild {
-
-            cmake {
-                cppFlags ""
-            }
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
