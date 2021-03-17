@@ -1,0 +1,43 @@
+ext {
+    android =
+            [
+                    //版本号
+                    versionCode      : 1,
+                    versionName      : "1.0.0",
+
+                    //sdk版本
+                    compileSdkVersion: 30,
+                    buildToolsVersion: "30.0.3",
+                    minSdkVersion    : 19,
+                    targetSdkVersion : 30,
+                    supportVersion   : "30.0.0",
+            ]
+
+    jcenter =
+            [
+                    //项目名称
+                    name       : "libyuv-jni",
+                    groupId    : "in.xiandan",
+                    //项目地址
+                    siteUrl    : "https://github.com/xiandanin/libyuv-jni",
+                    //项目git地址
+                    gitUrl     : "https://github.com/xiandanin/libyuv-jni.git",
+                    //项目描述
+                    description: "基于libyuv的jni实现",
+                    //开发者的一些基本信息
+                    authorId   : "xiandanin",
+                    authorName : "xiandanin",
+                    authorEmail: "denghahae@gmail.com",
+
+                    //开源协议
+                    licenses   : {
+                        license {
+                            name 'MIT'
+                            url 'https://opensource.org/licenses/MIT'
+                        }
+                    },
+                    licenseName: 'MIT'
+            ]
+
+
+}

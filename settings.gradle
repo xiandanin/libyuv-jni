@@ -1,0 +1,3 @@
+include ':libyuv'
+include ':app'
+rootProject.name = "libyuv-jni"
